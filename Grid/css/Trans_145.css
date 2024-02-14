@@ -1,0 +1,6 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: 25% 50%;
+    grid-gap: 1em; /*La separación de los elementos será de 1 em*/
+}

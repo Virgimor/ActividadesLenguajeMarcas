@@ -1,0 +1,9 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 50px 100px; /*dos filas, una de 50px y otra de 100px*/
+    grid-template-columns: 25% 50%; /*dos columnas, una de 25% y otra de 50%*/
+}
+.grid-item{
+    grid-row: 1; /* primera fila*/
+    grid-column: 1; /*primera columna*/
+} 
