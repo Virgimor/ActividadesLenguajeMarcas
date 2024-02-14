@@ -1,0 +1,23 @@
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}

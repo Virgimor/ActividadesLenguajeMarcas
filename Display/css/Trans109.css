@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    color: whitesmoke;
+}
+#static{
+    position: static;
+    top: 50px;
+    left: 10px;
+    background: red;
+}
+#relative{
+    position: static;
+    top: 50px;
+    left: 10px;
+    background: red;
+}
+#absolute{
+    position: absolute;
+    
+    left: 10px;
+    background: red;
+}
+#fixed{
+    position: fixed;
+    
+    left: 10px;
+    background: red;
+}
+#sticky{
+    position: sticky;
+    top: 50px;
+    left: 10px;
+    background: red;
+}

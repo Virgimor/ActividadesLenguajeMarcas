@@ -1,0 +1,8 @@
+.lotr > li {
+    color: orange;
+    font-weight: bold;
+}
+ /*hob es padre directo de li y li es hijo directo de hob*/
+.hob > li {
+    color: goldenrod;
+}

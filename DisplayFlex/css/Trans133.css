@@ -1,0 +1,35 @@
+.hijo{
+    width: 100px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 10px;
+}
+.flex-start{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.flex-end{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.center{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stretch{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.baseline{
+    height: 100px;
+    display: flex;
+    justify-content: baseline;
+}

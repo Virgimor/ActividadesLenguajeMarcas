@@ -1,0 +1,19 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.hijo{
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 10px;
+}

@@ -1,0 +1,9 @@
+a[href="www.google.es"] {
+    color: rgb(76, 199, 71);
+}
+a[href="www.twitter.com"] {
+    color: aqua;
+}
+a[href="www.github.com"] {
+    color: purple;
+}

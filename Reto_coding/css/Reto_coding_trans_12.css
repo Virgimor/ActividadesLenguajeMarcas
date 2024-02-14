@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(231, 71, 159);
+    color: aqua;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+li {
+    color: rgb(30, 46, 190);
+    font-style: italic;
+}

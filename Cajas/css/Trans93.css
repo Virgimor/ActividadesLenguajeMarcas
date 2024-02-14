@@ -1,0 +1,7 @@
+.margin-example{
+    width: 200px;
+    margin: auto;
+    padding: 100px 80px 20px 800px; /*top(arriba), derecha(right), abajo(botton), izquierda(left)*/
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}

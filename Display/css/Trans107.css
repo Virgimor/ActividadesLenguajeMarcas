@@ -1,0 +1,28 @@
+.b{
+    display: block;
+    background-color: aquamarine
+}
+.i{
+    display: inline;
+    background-color: teal;
+}
+.if{
+    display: inline-flex;
+    background-color: olive;
+}
+.f{
+    display: flex;
+    background-color: blueviolet;
+}
+.g{
+    display: grid;
+    background-color:orange;
+}
+.c{
+    display: contents;
+    background-color: salmon;
+}
+.n{
+    display: none;
+    background-color: tan;
+}

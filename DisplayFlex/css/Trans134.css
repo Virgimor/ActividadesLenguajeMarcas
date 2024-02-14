@@ -1,0 +1,52 @@
+.hijo{
+    width: 100px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 10px;
+}
+.flex-start{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.flex-end{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.center{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.space-between{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.space-around{
+    height: 100px;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.stretch{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}

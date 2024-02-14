@@ -1,0 +1,61 @@
+span{
+    background-color: steelblue;
+    width: 100px;
+    height: 50px;
+    padding: 30px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.block{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: crimson;
+}
+
+.inline{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    background-color: crimson;
+}
+
+.inline-block{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: crimson;
+}
+
+.flex{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: crimson;
+}
+.inline-flex{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    background-color: crimson;
+}
+.gd{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background-color: crimson;
+}
+.cd{
+    margin: 0;
+    padding: 0;
+    display: contents;
+    background-color: crimson;
+}
+.nd{
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: crimson;
+}

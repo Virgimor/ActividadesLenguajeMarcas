@@ -1,0 +1,14 @@
+.flex-flow{
+    flex-flow: column nowrap;
+}
+.hijo{
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 10px;
+}
+.container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

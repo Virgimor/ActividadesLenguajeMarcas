@@ -1,0 +1,8 @@
+div{
+    background-color: blueviolet;
+    width: 800px;  
+}
+span{
+    background-color: steelblue;  /*Esto es un inline*/
+    width: 800px;
+}

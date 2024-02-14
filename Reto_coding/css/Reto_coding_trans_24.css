@@ -1,0 +1,8 @@
+li:first-of-type + li + li {
+    font-style: italic;
+    color: orange;
+}
+li:first-of-type + li + li + li + li {
+    font-style: italic;
+    color: orange;
+}

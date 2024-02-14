@@ -1,0 +1,12 @@
+.element{
+    box-shadow: 5px 5px 0;              /*Sombra sin desenfoque*/
+}
+.element2{
+    box-shadow: 5px 5px 2px;            /*Sombra con ligero desenfoque*/
+}
+.element3{
+    box-shadow: 5px 5px 10px;           /*Sombra desenfocada*/
+}
+.element4{
+    box-shadow: 5px 5px 40px;           /*Sombra con un desenfoque casi disipado*/
+}

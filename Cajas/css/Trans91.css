@@ -1,0 +1,14 @@
+.margin-example{
+    width:100px;
+    margin: 45%;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.margin-examplee{
+    width:100px;
+    margin:auto;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}

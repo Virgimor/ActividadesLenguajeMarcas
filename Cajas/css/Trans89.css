@@ -1,0 +1,23 @@
+div{
+    width: 250px;
+    height: 75px;
+    padding: 25px;
+    border: 5px solid black;
+    background: lightblue;
+}
+
+.content-box {
+    box-sizing:content-box;
+    /*Ancho toal: 250px + (2 * 25px) + (2 * 5px) = 310px
+    Altura total: 75px + (2 * 25px) + (2 * 5px) = 135px
+    Ancho de la caja de contenido: 250px
+    Altura de la caja de contenido: 75px*/
+}
+
+.border-box {
+    box-sizing: border-box;
+    /*Ancho total: 250px
+    Altura total: 75px
+    Ancho de la caja de contenido: 250px - (2 * 25px) - (2 * 5px) = 190px
+     Altura de la caja de contenido: 75px - (2 * 25px) - (2 * 5px) = 10px*/
+}
