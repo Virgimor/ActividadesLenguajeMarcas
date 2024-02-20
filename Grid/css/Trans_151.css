@@ -1,0 +1,48 @@
+.hg_header{
+    grid-area: header;
+    background-color: brown;
+}
+.hg_footer{
+    grid-area: footer;
+    background-color: aquamarine;
+}
+.hg_main{
+    grid-area: main;
+    background-color: blueviolet;
+}
+.hg_left{
+    grid-area: navigation;
+    background-color: tomato;
+}
+.hg_right{
+    grid-area: ads;
+    background-color: steelblue;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "navigation main ads"
+        "footer footer footer";
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 
+        100px
+        1fr
+        30px;
+    min-height: 100vh;
+}
+@media screen and (max-width: 600px){
+    .hg {
+        grid-template-areas: "header"
+                             "navigation"
+                             "main"
+                             "ads"
+                             "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 100%
+                50px
+                1fr
+                50px
+                30px;
+    }
+}

@@ -1,0 +1,21 @@
+@keyframes cambiarColor {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.mi-elemento{
+    width: 50%;
+    border: 3px solid;
+    padding: 50px;
+    margin: auto;
+    box-sizing: content-box;
+    justify-items: center;
+    animation: cambiarColor infinite 2s;
+}

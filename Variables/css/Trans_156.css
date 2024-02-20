@@ -1,0 +1,11 @@
+.elemento{
+    --main-bg-color: red;
+}
+
+:roo{
+    --main-bg-color: red;
+}
+
+p{
+    background-color: var(--main-bg-color, red);
+}
