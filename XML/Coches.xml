@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+    <coche>
+        <modelo>Trueno</modelo>
+        <marca>Siat</marca>
+        <motor>
+            <caballos>200</caballos>
+            <tipo>Diesel</tipo>
+        </motor>
+        <kilometro>100000</kilometro>
+    </coche>
+    <coche>
+        <modelo>Relampago</modelo>
+        <marca>Tesla</marca>
+        <motor>
+            <caballos>150</caballos>
+            <tipo>Electrico</tipo>
+        </motor>
+        <kilometro>10000</kilometro>
+    </coche>
+    <coche>
+        <modelo>Ibiza</modelo>
+        <marca>Seat</marca>
+        <motor>
+            <caballos>110</caballos>
+            <tipo>Gasolina</tipo>
+        </motor>
+        <kilometro>200000</kilometro>
+    </coche>
+</coches>

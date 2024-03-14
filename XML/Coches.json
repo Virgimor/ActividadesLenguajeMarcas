@@ -1,0 +1,29 @@
+[
+    {
+      "modelo": "Trueno",
+      "marca": "Siat",
+      "motor":{
+        "caballos": 200,
+        "tipo": "Diesel"
+    },
+      "kilometros": 100000
+    },
+    {
+      "modelo": "Relampago",
+      "marca": "Tesla",
+      "motor": {
+        "caballos": 150,
+        "tipo": "Electrico"
+      },
+      "kilometros": 10000
+    },
+    {
+      "modelo": "Ibiza",
+      "marca": "Seat",
+      "motor": {
+        "caballos": 110,
+        "tipo": "Gasolina"
+      },
+      "kilometros": 200000
+    }
+  ] 

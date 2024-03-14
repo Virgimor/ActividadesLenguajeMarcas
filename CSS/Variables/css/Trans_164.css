@@ -11,13 +11,11 @@
 }
 @keyframes cambiarColor {
     0% {
-        background-color: red;
+        background-color: orange;
     }
-    50% {
-        background-color: blue;
-    }
+    
     100% {
-        background-color: green;
+        background-color: rgb(48, 48, 48);
     }
 }
 

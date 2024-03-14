@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enlaces>
+    <enlace>
+        <titulo>Wikipedia</titulo>
+        <descripcion>La enciclopedia libres</descripcion>
+        <link>http:\\www.wikipedia.org</link>
+    </enlace>
+    <enlace>
+        <titulo>W3C</titulo>
+        <descripcion>World Wide Web Consortium</descripcion>
+        <link>http:\\w3.org</link>
+    </enlace>
+    <enlace>
+        <titulo>OEA</titulo>
+        <descripcion>Observatorio Europeo Austral</descripcion>
+        <link>http:\\www.eso.org</link>
+    </enlace>
+</enlaces>    

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>Ciudad
+    <ciudad>
+        <nombre style="height: 30px;"> Ceuta </nombre>
+        <pais> España </pais>
+        <continente> Europa </continente>
+    </ciudad>
+    <ciudad>
+        <nombre> Casablanca </nombre>
+        <pais> Marruecos </pais>
+        <continente> África </continente>
+    </ciudad>
+    <ciudad>
+        <nombre> Nueva Deli </nombre>
+        <pais> India </pais>
+        <continente> Asia </continente>
+    </ciudad>
+</ciudades>
