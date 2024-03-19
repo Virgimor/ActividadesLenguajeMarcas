@@ -15,18 +15,22 @@ public class ParserXmlHelloWorld {
 
 	public static void main(String[] args) {
 		
-		//Create a new factory of documents builder
+		// Create a new factory of documents builder
+		// Crear una nueva fábrica de documentos
 		DocumentBuilderFactory documentBulderFactory =  DocumentBuilderFactory.newInstance();
 		
 		try {
 			
-			//Create a new instance of document builder
+			// Create a new instance of document builder
+			// Crear una nueva instancia del generador de documentos
 			DocumentBuilder documentBuilder = documentBulderFactory.newDocumentBuilder();
 			
-			//Parse and store the XML in the instance of Document
+			// Parse and store the XML in the instance of Document
+			// Parsear y almacenar el XML en la instancia de Documento 
 			Document document = documentBuilder.parse(new File("hello_world.xml"));
 			
-			//Get the root element
+			// Get the root element
+			// Obtener el elemento raíz
 			Element rootElement = document.getDocumentElement();
 			
 			System.out.println("Nombre del elemento raíz ... " + rootElement.getNodeName());
