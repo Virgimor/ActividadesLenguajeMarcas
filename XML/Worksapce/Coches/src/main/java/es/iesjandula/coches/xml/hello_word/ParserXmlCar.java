@@ -39,13 +39,14 @@ public class ParserXmlCar {
 			
 			// Get the first element of the list
 			// Obtener el primer elemento de la lista
+			// Para obterner el segundo coche del XML es item(1)
 			Element nodeCar = (Element) nodeListCar.item(0);
 			
 			// Get text from node values
 			// Obtener texto de los valores de los nodos
 			String marca      = nodeCar.getElementsByTagName("marca").item(0).getTextContent();
 			String modelo     = nodeCar.getElementsByTagName("modelo").item(0).getTextContent();
-			String kilometros = nodeCar.getElementsByTagName("kilometros").item(0).getTextContent();
+			String kilometros = nodeCar.getElementsByTagName("kilometro").item(0).getTextContent();
 			
 			System.out.println("Marca: " + marca + ", modelo: " + modelo + ", kilometros: " + kilometros);
 			

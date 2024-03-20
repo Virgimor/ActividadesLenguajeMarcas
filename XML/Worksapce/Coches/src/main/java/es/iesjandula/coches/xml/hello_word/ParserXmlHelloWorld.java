@@ -33,7 +33,10 @@ public class ParserXmlHelloWorld {
 			// Obtener el elemento raíz
 			Element rootElement = document.getDocumentElement();
 			
+			//Devuelve el nombre de la etiqueta
 			System.out.println("Nombre del elemento raíz ... " + rootElement.getNodeName());
+			
+			//Devuelve el contenido que hay dentro de la etiqueta
 			System.out.println("Valor de elemento raíz ... " + rootElement.getTextContent());
 			
 		} catch (ParserConfigurationException xmlException) {

@@ -29,7 +29,7 @@ public class ParserXmlHomes {
 			
 			// Parse and store the XML in the instance of Document
 			// Parsear y almacenar el XML en la instancia de Documento
-			Document document = documentBuilder.parse(new File("home.xml"));
+			Document document = documentBuilder.parse(new File("homes.xml"));
 			
 			// This rootElement is ... casas
 			// Este rootElement es ... casas
@@ -42,16 +42,17 @@ public class ParserXmlHomes {
 				
 				// Get the first element of the list
 				// Obtener el primer elemento de la lista
-				Element nodeCar = (Element) nodeListHome.item(i);
+				Element nodeHome = (Element) nodeListHome.item(i);
 				
 				// Get text from node values
 				// Obtener texto de los valores de los nodos
-				String ciudad        = nodeCar.getAttributes().getNamedItem("ciudad").getTextContent();
-				String tipo          = nodeCar.getAttributes().getNamedItem("tipo").getTextContent();
-				int metrosCuadrados  = Integer.valueOf(nodeCar.getAttributes().getNamedItem("metrosCuadrados").getTextContent());
-				int plantas          = Integer.valueOf(nodeCar.getAttributes().getNamedItem("plantas").getTextContent());
-				int habitaciones     = Integer.valueOf(nodeCar.getAttributes().getNamedItem("plantas").getTextContent());
-				boolean zonasComunes = Boolean.valueOf(nodeCar.getAttributes().getNamedItem("zonasComunes").getTextContent());
+										// Dame el valor del atributo.con nombre().dame su contenido
+				String ciudad        = nodeHome.getAttributes().getNamedItem("ciudad").getTextContent();
+				String tipo          = nodeHome.getAttributes().getNamedItem("tipo").getTextContent();
+				int metrosCuadrados  = Integer.valueOf(nodeHome.getAttributes().getNamedItem("metrosCuadrados").getTextContent());
+				int plantas          = Integer.valueOf(nodeHome.getAttributes().getNamedItem("plantas").getTextContent());
+				int habitaciones     = Integer.valueOf(nodeHome.getAttributes().getNamedItem("plantas").getTextContent());
+				boolean zonasComunes = Boolean.valueOf(nodeHome.getAttributes().getNamedItem("zonasComunes").getTextContent());
 				
 				System.out.println("Ciudad: " + ciudad + ", tipo: " + tipo + ", metrosCuadrados: " + metrosCuadrados + ", plantas: " + plantas + 
 						", habitaciones: " + habitaciones + ", zonasComunes: " + zonasComunes);

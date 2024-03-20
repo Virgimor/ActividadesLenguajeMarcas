@@ -16,7 +16,7 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-public class ObjertoAXml {
+public class ConvertHelloWorldAXml {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
