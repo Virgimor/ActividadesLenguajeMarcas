@@ -28,37 +28,55 @@ public class ParserAlumnos {
 		DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 
 		try {
-
+			
+			//Create a new instance of document builder
 			DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-
+			
+			//P
 			Document document = documentBuilder.parse(new File("entrada_alumnos.xml"));
+			
+			
 
 			Element rootElementEntrada = document.getDocumentElement();
 
 			NodeList nodeListAlum = rootElementEntrada.getElementsByTagName("alumno");
 			// Array de alumno
-			Alumno[] arrayAlumnos = new Alumno[nodeListAlum.getLength()];
+			Alumnoo[] arrayAlumnos = new Alumnoo[nodeListAlum.getLength()];
+			
+			
 
 			for (int i = 0; i < nodeListAlum.getLength(); i++) {
 
 				Element nodeAlum = (Element) nodeListAlum.item(i);
 
-				if(Boolean
-						.valueOf(nodeAlum.getElementsByTagName("unidadesPendientes").item(0).getTextContent())== true) {
+				if(Boolean.valueOf(nodeAlum.getElementsByTagName("unidadesPendientes").item(0).getTextContent())== true) {
 					String nombre = nodeAlum.getAttribute("nombre");
 					int edad = Integer.valueOf(nodeAlum.getAttribute("edad"));
-					double calificacion = Double
-							.valueOf(nodeAlum.getElementsByTagName("calificacion").item(0).getTextContent());
-					boolean unidadesPendientes = Boolean
-							.valueOf(nodeAlum.getElementsByTagName("unidadesPendientes").item(0).getTextContent());
+					double calificacion = Double.valueOf(nodeAlum.getElementsByTagName("calificacion").item(0).getTextContent());
+					boolean unidadesPendientes = Boolean.valueOf(nodeAlum.getElementsByTagName("unidadesPendientes").item(0).getTextContent());
 
-					
 					// 
-					arrayAlumnos[i] = new Alumno(nombre, edad, calificacion, unidadesPendientes);
+					arrayAlumnos[i] = new Alumnoo(nombre, edad, calificacion, unidadesPendientes);
 					
 					System.out.println(arrayAlumnos[i]);
+					
 				}
 				
+			}
+			for (int i = 0; i < arrayAlumnos.length; i++) 
+			{
+
+				for (int j = i + 1; j < arrayAlumnos.length; j++) 
+				{
+
+					if (arrayAlumnos[i].getNombre().compareTo(arrayAlumnos[j].getNombre()) > 0) 
+					{
+
+						Alumnoo temp = arrayAlumnos[i];
+						arrayAlumnos[i] = arrayAlumnos[j];
+						arrayAlumnos[j] = temp;
+					}
+				}
 			}
 			Arrays.sort(arrayAlumnos);
 			System.out.println(arrayAlumnos);

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mi_etiqueta_raíz>nombre: Fulanito, edad: 20, calificacion: 8.5, unidadesPendientestrue
+nombre: Menganito, edad: 21, calificacion: 7.4, unidadesPendientesfalse
+nombre: Zutanito, edad: 19, calificacion: 6.9, unidadesPendientesfalse
+nombre: Anacleto, edad: 25, calificacion: 7.5, unidadesPendientestrue
+nombre: Firulais, edad: 18, calificacion: 8.2, unidadesPendientesfalse
+nombre: Juan, edad: 30, calificacion: 5.9, unidadesPendientesfalse
+nombre: Pepe, edad: 28, calificacion: 8.1, unidadesPendientestrue
+nombre: Jesús, edad: 24, calificacion: 7.6, unidadesPendientesfalse
+nombre: Antonia, edad: 19, calificacion: 9.5, unidadesPendientesfalse
+nombre: Laura, edad: 20, calificacion: 8.5, unidadesPendientestrue
+nombre: Pepa, edad: 23, calificacion: 7.4, unidadesPendientesfalse
+nombre: Juana, edad: 25, calificacion: 5.9, unidadesPendientesfalse
+nombre: Esteban, edad: 18, calificacion: 8.5, unidadesPendientestrue
+nombre: Estela, edad: 21, calificacion: 7.8, unidadesPendientesfalse
+nombre: Jimmy, edad: 19, calificacion: 9.9, unidadesPendientesfalse
+nombre: Anastasia, edad: 18, calificacion: 5.5, unidadesPendientestrue
+nombre: Menganito, edad: 21, calificacion: 7.4, unidadesPendientesfalse
+nombre: Susanita, edad: 19, calificacion: 6.9, unidadesPendientesfalse
+nombre: Eva, edad: 25, calificacion: 8.0, unidadesPendientestrue
+nombre: Javi, edad: 26, calificacion: 8.4, unidadesPendientesfalse
+Alumno [nombre=Antonia, edad=19, calificacion=9.5, AsignaturasPendientes=false]
+Alumno [nombre=Estela, edad=21, calificacion=7.8, AsignaturasPendientes=false]
+Alumno [nombre=Firulais, edad=18, calificacion=8.2, AsignaturasPendientes=false]
+Alumno [nombre=Javi, edad=26, calificacion=8.4, AsignaturasPendientes=false]
+Alumno [nombre=Jesús, edad=24, calificacion=7.6, AsignaturasPendientes=false]
+Alumno [nombre=Jimmy, edad=19, calificacion=9.9, AsignaturasPendientes=false]
+Alumno [nombre=Juan, edad=30, calificacion=5.9, AsignaturasPendientes=false]
+Alumno [nombre=Juana, edad=25, calificacion=5.9, AsignaturasPendientes=false]
+Alumno [nombre=Menganito, edad=21, calificacion=7.4, AsignaturasPendientes=false]
+Alumno [nombre=Menganito, edad=21, calificacion=7.4, AsignaturasPendientes=false]
+Alumno [nombre=Pepa, edad=23, calificacion=7.4, AsignaturasPendientes=false]
+Alumno [nombre=Susanita, edad=19, calificacion=6.9, AsignaturasPendientes=false]
+Alumno [nombre=Zutanito, edad=19, calificacion=6.9, AsignaturasPendientes=false]
+-----Datos Alumnos-----
+El alumno con la mayor nota es: Jimmy con nota: 9.9
+El alumno con la menor nota es: Anastasia con nota: 5.5
+La media de edad de los alumnos es: 21.0
+La media de calificaciones de los alumnos es: 7.690000000000002
+</mi_etiqueta_raíz>
