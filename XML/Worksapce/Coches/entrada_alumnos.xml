@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<alumnos>
+	<alumno nombre="Fulanito" edad="20">
+		<calificacion>8.5</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Menganito" edad="21">
+		<calificacion>7.4</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Zutanito" edad="19">
+		<calificacion>6.9</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Anacleto" edad="25">
+		<calificacion>7.5</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Firulais" edad="18">
+		<calificacion>8.2</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Juan" edad="30">
+		<calificacion>5.9</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Pepe" edad="28">
+		<calificacion>8.1</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Jesús" edad="24">
+		<calificacion>7.6</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Antonia" edad="19">
+		<calificacion>9.5</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Laura" edad="20">
+		<calificacion>8.5</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Pepa" edad="23">
+		<calificacion>7.4</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Juana" edad="25">
+		<calificacion>5.9</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Esteban" edad="18">
+		<calificacion>8.5</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Estela" edad="21">
+		<calificacion>7.8</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Jimmy" edad="19">
+		<calificacion>9.9</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Anastasia" edad="18">
+		<calificacion>5.5</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Menganito" edad="21">
+		<calificacion>7.4</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Susanita" edad="19">
+		<calificacion>6.9</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Eva" edad="25">
+		<calificacion>8.0</calificacion><unidadesPendientes>true</unidadesPendientes>
+	</alumno>
+	<alumno nombre="Javi" edad="26">
+		<calificacion>8.4</calificacion><unidadesPendientes>false</unidadesPendientes>
+	</alumno>
+</alumnos>

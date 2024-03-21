@@ -16,8 +16,8 @@ public class ParserXmlCar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Create a new factory of documents builder
-		// 
+		// Create a new factory of documents builder
+		// Crear una nueva fábrica de documentos
 		DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 		
 		try {
